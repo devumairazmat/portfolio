@@ -18,7 +18,7 @@ function Navbar() {
               <li>Home</li>
               <li>Services</li>
               <li>Experience</li>
-              <li>Pertfolio</li>
+              <li>Portfolio</li>
               <li>Testimonial</li>
             </ul>
           </div>
