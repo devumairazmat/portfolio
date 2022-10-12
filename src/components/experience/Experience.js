@@ -7,17 +7,17 @@ function Experience() {
       <div className="achievement">
         {/* darkMode */}
         <div className="circle">1+</div>
-        <span>years </span>
+        <span>Years </span>
         <span>Experience</span>
       </div>
       <div className="achievement">
         <div className="circle">20+</div>
-        <span>completed </span>
+        <span>Completed </span>
         <span>Projects</span>
       </div>
       <div className="achievement">
         <div className="circle">5+</div>
-        <span>companies </span>
+        <span>Companies </span>
         <span>Work</span>
       </div>
     </div>
