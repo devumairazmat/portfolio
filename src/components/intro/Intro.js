@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Intro.css";
 import Vector1 from "../../img/Vector1.png";
 import Vector2 from "../../img/Vector2.png";
@@ -12,14 +12,19 @@ import LinkedIn from "../../img/linkedin.png";
 import Skype from "../../img/skype.png";
 import FloatingDiv from "../floatingDiv/FloatingDiv";
 
+import { themeContext } from "../../Context";
+
 function Intro() {
+  // context
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
   return (
     <div className="intro">
       {/* Left side */}
       <div className="i-left">
         {/* name */}
         <div className="i-name">
-          <span>I Am</span>
+          <span style={{ color: darkMode ? "white" : "" }}>I Am</span>
           <span>Umair Azmat</span>
           <span>
             <b>WordPress</b> & <b>MERN Stack Developer</b> with high level of

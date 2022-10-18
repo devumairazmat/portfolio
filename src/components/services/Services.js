@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import "./Services.css";
 import Resume from "./Umair Azmat.pdf";
 import HeartEmoji from "../../img/heartemoji.png";
@@ -6,12 +6,17 @@ import Glasses from "../../img/glasses.png";
 import Humble from "../../img/humble.png";
 import Card from "../card/Card";
 
+import { themeContext } from "../../Context";
 function Services() {
+  // context
+  const theme = useContext(themeContext);
+  const darkMode = theme.state.darkMode;
+
   return (
     <div className="services">
       {/* Left Side  */}
       <div className="awesome">
-        <span>My Awsome</span>
+        <span style={{ color: darkMode ? "white" : "" }}>My Awsome</span>
         <span>Services</span>
         <spane>
           Creative solutions to others' problems are the thing I like the most
