@@ -57,10 +57,10 @@ function Intro() {
         <img src={umair} alt="" />
 
         <img src={glassesimoji} alt="" />
-        <div style={{ top: "-4%", left: "64%" }}>
+        <div style={{ top: "-4%", left: "70%" }}>
           <FloatingDiv image={crown} text1="WEB" text2="Developer" />
         </div>
-        <div style={{ top: "18.5rem", left: "0rem" }}>
+        <div style={{ top: "19.5rem", left: "0rem" }}>
           <FloatingDiv image={thumbup} text1="Best Design" text2="Award" />
         </div>
         {/* Blur */}

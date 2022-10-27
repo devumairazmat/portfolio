@@ -65,7 +65,7 @@
 
 .i-right > :nth-child(1) {
   transform: scale(0.69);
-  left: -10%;
+  left: -15%;
   top: -9%;
 }
 
@@ -76,7 +76,7 @@
 }
 .i-right > :nth-child(3) {
   transform: scale(0.48);
-  bottom: -15%;
+  bottom: -30%;
   left: -8rem;
 }
 
